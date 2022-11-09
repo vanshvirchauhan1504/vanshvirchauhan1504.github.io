@@ -34,11 +34,11 @@ let sharingScreen = false;
 let joinRoomInit = async () => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     3
     
     rtmClient = await AgoraRTM.createInstance(APP_ID)
+    await rtmClient.login({uid,token})
+
     console.log("HELLO HERE");
     console.log(uid);
     console.log(token);
-    await rtmClient.login({uid,token})
-
     await rtmClient.addOrUpdateLocalUserAttributes({'name':displayName})
 
     channel = await rtmClient.createChannel(roomId)
@@ -251,13 +251,10 @@ let leaveStream = async (e) => {
     channel.sendMessage({text:JSON.stringify({'type':'user_left', 'uid':uid})})
 }
 
-
-
 document.getElementById('camera-btn').addEventListener('click', toggleCamera)
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
 document.getElementById('screen-btn').addEventListener('click', toggleScreen)
 document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveStream)
-
 
 joinRoomInit()

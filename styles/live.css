@@ -38,10 +38,65 @@
 
 
 .room__item{
+    display: flex;
     border: 3px solid black;
     border-radius: 15px;
     width: 95%;
+    /* max-width: 1475px; */
     /* height: 100%; */
-    padding: 5px 10px;
+    padding: 5px 10px 5px 30px;
     margin: 5px 5px 15px 5px;
+}
+
+.room__content{
+    /* border: 3px solid white; */
+    margin: 0;
+    padding: 0;
+}
+
+
+.room__meta{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: ; */
+    /* border: 3px solid red; */
+    margin: 0;
+    padding: 0;
+}
+.room__meta svg{
+    /* border: 3px solid yellow; */
+    /* margin-top: 5px; */
+}
+
+.room__meta span{
+    /* border: 3px solid yellow; */
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+
+
+.room__title{
+    /* border: 3px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.room__box{
+    /* border: 3px solid blue; */
+    margin: 0;
+    padding: 0;
+}
+
+
+.room__author{
+    /* border: 3px solid black; */
+    margin: 0;
+    padding: 0;
+}
+
+.room__action{
+    /* border: 3px solid green; */
+    margin: 0;
+    padding: 0;
 }
