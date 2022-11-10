@@ -27,8 +27,8 @@
 }
 
 body {
-  background-color: #f4906e;
-  color: rgb(240, 221, 221);
+  background-color: #af77c4;
+  color: white;
 
   font-size: 14px;
   padding: 0;
@@ -63,8 +63,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #000000;
-  background-color: #1a1a1a;
+    background-color: #283639;
+    border-bottom: 1px solid ;
+  background-color: #283639;
   text-decoration: none;
   padding: 16px 5%;
   z-index: 999;
@@ -78,7 +79,7 @@ a {
   font-weight: 700;
   line-height: 0;
   margin: 0;
-  color: #ebe0e0;
+  color: white;
 }
 
 @media (max-width: 640px) {
@@ -119,12 +120,12 @@ a {
 .nav__link:hover {
   color: rgb(230, 228, 228);
   text-decoration: none;
-  border-color: #845695;
+  border-color: #af77c4;
 }
 
 #create__room__btn {
   display: block;
-  background-color: #2b4360;
+  background-color: #af77c4;
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 500;
@@ -132,7 +133,7 @@ a {
 }
 
 #create__room__btn:hover {
-  background-color: #5c7fda;
+  background-color: #af77c4;
 }
 
 .nav--list {
@@ -152,7 +153,7 @@ a {
 #members__button:hover svg>path,
 #chat__button:hover svg,
 .nav__link:hover svg {
-  fill: #845695;
+  fill: #af77c4;
 }
 
 .nav__link svg {

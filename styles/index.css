@@ -38,7 +38,8 @@ a{
 
 .navLogo{
     padding: 12px 25px;
-    
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .navLogo:hover{
@@ -112,6 +113,10 @@ a{
 
 @media screen and (max-width: 990px) {
 
+    .navLogo{
+        font-size: 20px;
+    }
+
     .content_img{
         display: none;
     }
@@ -119,5 +124,31 @@ a{
     .content_img_phone{
         display: inline;
     }
+
+    .help2{
+        /* border: 2px solid blue; */
+        background-color: white;
+        border-radius: 8px;
+        color: #af77c4;
+    }
+
+    .help2 a:hover{
+        color: black;
+    }
     
+    .help2 a{
+        /* border: 2px solid red; */
+        text-align: left;
+        color: #af77c4;
+    }
+
+    .navItem{
+        /* border: 2px solid red; */
+        padding: 10px;
+    }
+
+    .navList{
+        /* border: 2px solid red; */
+        width: 150px;;
+    }
   }

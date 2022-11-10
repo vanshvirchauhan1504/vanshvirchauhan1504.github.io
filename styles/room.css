@@ -16,7 +16,7 @@
   position: fixed;
 }
 #members__container {
-  background-color: #262625;
+  background-color: #283639;
   border-right: 1px solid #797a79;
   overflow-y: auto;
   width: 90%;
@@ -41,7 +41,7 @@
   padding: 0 1rem;
   position: fixed;
   font-size: 18px;
-  background-color: #153655;
+  background-color: #283639;
   width: 218px;
 }
 
@@ -79,13 +79,13 @@
 
 #messages__container {
   height: calc(100vh - 85px);
-  background-color: #262625;
+  background-color: #283639;
   right: 0;
   position: absolute;
   width: 100%;
   max-width: 25rem;
   overflow-y: auto;
-  border-left: 1px solid #111;
+  border-left: 1px solid #283639;
 }
 
 #messages {
@@ -105,7 +105,7 @@
 }
 
 .message__body {
-  background-color: #363739;
+  background-color: #283639;
   border-radius: 10px;
   padding: 10px 15px;
   width: fit-content;
@@ -132,7 +132,7 @@
 
 .message__author__bot {
   margin-right: 10px;
-  color: #3875a4 !important;
+  color: #af77c4 !important;
 
 }
 
@@ -345,7 +345,7 @@
 }
 
 #join-btn {
-  background-color: #517ab4;
+  background-color: #283639;
   font-size: 18px;
   padding: 25px 50px;
   border: none;
